@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#messages-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+#input-container {
+    padding: 10px;
+    display: flex;
+}
+
+#user-input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
